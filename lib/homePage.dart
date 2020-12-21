@@ -322,10 +322,11 @@ class _HomePageState extends State<HomePage> {
                 child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Center(
-                  child: Icon(
-                Icons.search,
-                color: mainDark,
-              )),
+                child: Image.asset(
+                  "assets/Group 10324.png",
+                  fit: BoxFit.cover,
+                ),
+              ),
             )),
           ],
         ),
